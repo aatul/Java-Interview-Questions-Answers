@@ -69,6 +69,24 @@ Collections are used to perform the following operations:
 ---
 
 ### 9. What is the final keyword in Java?
+
+**Final variable:**
+
+Once a variable is declared as final, then the value of the variable could not be changed. It is like a constant.
+
+Example:
+```java
+final int = 12;
+```
+**Final method:**
+
+A final keyword in a method that couldn’t be overridden. If a method is marked as a final, then it can’t be overridden by the subclass.
+
+**Final class:**
+
+If a class is declared as final, then the class couldn’t be subclassed. No class can extend the final class.
+
+
 ---
 
 ### 10. What is a Thread?
