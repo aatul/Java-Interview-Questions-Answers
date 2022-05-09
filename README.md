@@ -29,7 +29,7 @@ Java 8 provides following features for Java Programming:
 *	Concurrency Enhancements,
 *	JDBC Enhancements etc.
 ---
-### What is meant by Collections in Java?
+### 2. What is meant by Collections in Java?
 
 The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects. Java Collections can achieve all the operations that you perform on data such as searching, sorting, insertion, manipulation, and deletion.Java Collection means a single unit of objects. The Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet). 
 
