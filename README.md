@@ -7,7 +7,7 @@
 
 
 
-New Java8 Features
+### New Java8 Features
 Java 8 provides following features for Java Programming:D
 ●	Lambda expressions - Adds functional processing capability to Java. 
 ●	Method references - Referencing functions by their names instead of invoking them directly. Using functions as parameters. 
