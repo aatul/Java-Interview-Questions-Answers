@@ -72,4 +72,13 @@ Collections are used to perform the following operations:
 ---
 
 ### 10. What is a Thread?
+
+In Java, the flow of an execution is called Thread. Every java program has at least one thread called main thread, the Main thread is created by JVM. The user can define their own threads by extending Thread class (or) by implementing Runnable interface. Threads are executed concurrently.
+
+Example:
+```java
+public static void main(String[] args){//main thread starts here
+
+}
+
 ---
