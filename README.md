@@ -66,6 +66,85 @@ Collections are used to perform the following operations:
 ---
 
 ### 8. Explain about Set and their types in a collection?
+**Set**
+Set cares about uniqueness. It doesn’t allow duplicates. Here the “equals ( )” method is used to determine whether two objects are identical or not.
+
+**Hash Set:**
+*	Unordered and unsorted.
+*	Uses the hash code of the object to insert the values.
+*	Use this when the requirement is “no duplicates and don’t care about the order”.
+
+Example:
+```java
+public class Fruit {
+  public static void main (String[] args){
+    HashSet<String> names = new HashSet <=String>();
+    names.add(“banana”);
+    names.add(“cherry”);
+    names.add(“apple”);
+    names.add(“kiwi”);
+    names.add(“banana”);
+    System.out.println(names);
+  }
+}
+```
+Output:
+
+[banana, cherry, kiwi, apple]
+
+Doesn’t follow any insertion order. Duplicates are not allowed.
+
+**Linked Hash set:**
+*	An ordered version of the hash set is known as Linked Hash Set.
+*	Maintains a doubly-Linked list of all the elements.
+*	Use this when the iteration order is required.
+
+Example:
+```java
+public class Fruit {
+  public static void main (String[] args){
+    LinkedHashSet<String> names = new LinkedHashSet <String>();
+    names.add(“banana”);
+    names.add(“cherry”);
+    names.add(“apple”);
+    names.add(“kiwi”);
+    names.add(“banana”);
+    System.out.println(names);
+  }
+}
+```
+Output:
+
+[banana, cherry, apple, kiwi]
+
+Maintains the insertion order in which they have been added to the Set. Duplicates are not allowed.
+
+**Tree Set:**
+*	It is one of the two sorted collections.
+*	Uses “Read-Black” tree structure and guarantees that the elements will be in an ascending order.
+*	We can construct a tree set with the constructor by using comparable (or) comparator.
+
+Example:
+```java
+public class Fruits{
+  public static void main (String[] args) {
+    Treeset<String> names= new TreeSet<String>();
+    names.add(“cherry”);
+    names.add(“banana”);
+    names.add(“apple”);
+    names.add(“kiwi”);
+    names.add(“cherry”);
+    System.out.println(names);
+  }
+}
+```
+Output:
+
+[apple, banana, cherry, kiwi]
+
+TreeSet sorts the elements in an ascending order. And duplicates are not allowed.
+
+
 ---
 
 ### 9. What is the final keyword in Java?
