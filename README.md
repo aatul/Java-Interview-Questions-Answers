@@ -3,7 +3,7 @@
 ### Table of Contents
 | Sr.No.        | Question      | 
 | ------------- |:-------------:| 
-| 1             | [What are new Java8 Features?][ 1. New Java8 Features] | 
+| 1             | [What are new Java8 Features?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#1-new-java8-features--1-new-java8-features) | 
 
 [An Internal Link](/guides/content/editing-an-existing-page)
 ---
