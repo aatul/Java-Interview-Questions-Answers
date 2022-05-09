@@ -3,7 +3,7 @@
 ### Table of Contents
 | Sr.No.        | Question      | 
 | ------------- |:-------------:| 
-| 1             | [What are new Java8 Features?][1] | 
+| 1             | [What are new Java8 Features?][ 1. New Java8 Features] | 
 
 
 
