@@ -5,9 +5,10 @@
 | ------------- |:-------------:| 
 | 1             | [What are new Java8 Features?][ 1. New Java8 Features] | 
 
+[An Internal Link](/guides/content/editing-an-existing-page)
 ---
 
-### 1. New Java8 Features
+### 1. New Java8 Features [ 1. New Java8 Features]
 
 Java 8 provides following features for Java Programming:
 *	Lambda expressions - Adds functional processing capability to Java. 
@@ -29,3 +30,4 @@ Java 8 provides following features for Java Programming:
 *	Concurrency Enhancements,
 *	JDBC Enhancements etc.
 ---
+### Editing an Existing Page
