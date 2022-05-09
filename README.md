@@ -4,7 +4,7 @@
 | Sr.No.        | Question      | 
 | ------------- |-------------| 
 | 1             |[What are new Java8 Features?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#1-new-java8-features--1-new-java8-features) | 
-| 2             |[What is meant by Collections in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#what-is-meant-by-collections-in-java) | 
+| 2             |[What is meant by Collections in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#2-what-is-meant-by-collections-in-java) | 
 ---
 
 ### 1. New Java8 Features [ 1. New Java8 Features]
