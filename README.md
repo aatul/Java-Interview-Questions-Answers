@@ -5,7 +5,7 @@
 | ------------- |:-------------:| 
 | 1             | [What are new Java8 Features?][ 1. New Java8 Features] | 
 
---
+---
 
 ### 1. New Java8 Features
 
@@ -28,4 +28,4 @@ Java 8 provides following features for Java Programming:
 *	IO Enhancements,
 *	Concurrency Enhancements,
 *	JDBC Enhancements etc.
---
+---
