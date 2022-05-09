@@ -1,5 +1,7 @@
 # Java-Interview-Questions-Answers
 
+Looking forward to appear in Java Interview, here are the key Java Interview Questions with Answers only for you.
+
 ### Table of Contents
 | Sr.No.        | Question      | 
 | ------------- |-------------| 
