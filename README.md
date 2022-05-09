@@ -39,15 +39,47 @@ Java 8 provides following features for Java Programming:
 ---
 
 ### 2. Difference between GET & POST METHODS?
+
+| GET        | POST      | 
+| ------------- |-------------| 
+|Limited amount of data can be sent because data is sent in the header.|Large amount of data can be sent because data is sent in the body.|
+|Not Secured because data is exposed in the URL bar.|Secured because data is not exposed in the URL bar.|
+|Can be bookmarked|Cannot be bookmarked|
+|Idempotent|Non-Idempotent|
+|It is more efficient and use than Post|It is less efficient and used|
+
 ---
 
 ### 3. Difference between forward() method & SendRedirect() method?
+
+| forward() method        | sendRedirect() method      | 
+| ------------- |-------------| 
+|forward() sends the same request to another resource.|sendRedirect() method sends new request always because it uses the URL bar of the browser.|
+|forward() method works at server side.|sendRedirect() method works at client side.|
+|forward() method works within the server only.|sendRedirect() method works within and outside the server.|
+
 ---
 
 ### 4. Difference between HashMap and HashTable?
+
+| HashMap        | HashTable      | 
+| ------------- |-------------| 
+|Methods are not synchronized|Key methods are synchronized|
+|Not thread safe|Thread safe|
+|Iterator is used to iterate the values|Enumerator is used to iterate the values|
+|Allows one null key and multiple null values|Doesn’t allow anything that is null|
+|Performance is high than HashTable|Performance is slow|
+
 ---
 
 ### 5. Difference between HashSet and TreeSet?
+
+| HashSet        | TreeSet      | 
+| ------------- |-------------| 
+|Inserted elements are in random order|Maintains the elements in the sorted order|
+|Can store null objects|Couldn’t store null objects|
+|Performance is fast|Performance is slow|
+
 ---
 
 ### 6. What is meant by Collections in Java?
