@@ -610,10 +610,15 @@ The deployment descriptor is the file used by the servlet container to define wh
 This property means that each transaction is executed in isolation from others, and that concurrent transactions do not affect the transaction. This property level is variable, and as this article will discuss, SQL Server has five levels of transaction isolation depending on the requirements of the database.
 
 JDBC provides support 5 transaction isolation levels through Connection interface.
+
 **TRANSACTION_NONE:** It is represented by integer value 0 does not support transactions.
+
 **TRANSACTION_READ_COMMITTED:** It is represented by integer value 2 supports transactions allowing Non-Repeatable Reads and, Phantom Reads.
+
 **TRANSACTION_READ_UNCOMMITTED:** It is represented by integer value 1 supports transactions allowing Dirty Reads, Non-Repeatable Reads and, Phantom Reads.
+
 **TRANSACTION_REPEATABLE_READ:** It is represented by integer value 4 supports transactions allowing only Phantom Reads.
+
 **TRANSACTION_SERIALIZABLE:** It is represented by integer value 8 supports transactions with out allowing Dirty Reads, Non-Repeatable Reads and, Phantom Reads.
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
@@ -690,6 +695,9 @@ The Benefit of Kotlin -
 7. Kotlin suits for the multi-platform development 
 8. Kotlin development offers more safety 
 
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
 
 ### 44.	Have you worked for Lambda in AWS?
 
@@ -712,6 +720,7 @@ Writing testable code means that the smallest components are independently verif
 A URL shortening service is a simple service that takes a long URL and converts it to a short link. Once that link is visited, the user is redirected to the original URL. 
 
 A URL shortener is a service that is used to create short links from very long URLs. 
+
 Usually, short links have the size of one third or even one-fourth of the original URL, which makes them easier to type, present, or tweet. Clicking on a short link user will be automatically redirected to the original URL. 
 
 There are many URL shortening services available online, like tiny.cc, bitly.com, cutt.ly, etc. 
