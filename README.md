@@ -25,6 +25,38 @@ Looking forward to appear in Java Interview, here are the key Java Interview Que
 | 18             |[What are the different methods of session management in servlets?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#18what-are-the-different-methods-of-session-management-in-servlets) |
 | 19             |[Let's talk about SOLID design principles. Could you quickly explain what are the main design principles in the current project?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#19-lets-talk-about-solid-design-principles-could-you-quickly-explain-what-are-the-main-design-principles-in-the-current-project) |
 | 20             |[Difference between wait and notify() work in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#20difference-between-wait-and-notify-work-in-java) |
+| 21             |[What are Different scopes of java variable?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#21what-are-different-scopes-of-java-variable) |
+| 22             |[How do you read data from a flat file in java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#22how-do-you-read-data-from-a-flat-file-in-java) |
+| 23             |[What is synchronization with respect to multithreading?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#23what-is-synchronization-with-respect-to-multithreading) |
+| 24             |[What is an iterator?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#24what-is-an-iterator) |
+| 25             |[How do you prevent someone from overriding a method in a class you write?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#25how-do-you-prevent-someone-from-overriding-a-method-in-a-class-you-write) |
+| 26             |[How does java handle introducing overflows and underflows?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#26how-does-java-handle-introducing-overflows-and-underflows) |
+| 27             |[What is the default value of a local variable?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#27what-is-the-default-value-of-a-local-variable) |
+| 28             |[What does it mean if a method or field is static?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#28what-does-it-mean-if-a-method-or-field-is-static) |
+| 29             |[How would you put comments in your java Code?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#29how-would-you-put-comments-in-your-java-code) |
+| 30             |[What is the difference between string and string buffer?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#30what-is-the-difference-between-string-and-string-buffer) |
+| 31             |[What is J2EE?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#31what-is-j2ee) |
+| 32             |[What is a message driven bean?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#32what-is-a-message-driven-bean) |
+| 33             |[What is Entity Bean?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#33what-is-entity-bean) |
+| 34             |[What are call back methods in J2EE?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#34what-are-call-back-methods-in-j2ee) |
+| 35             |[What is an Application client module in J2EE? Give an Example?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#35what-is-an-application-client-module-in-j2ee-give-an-example) |
+| 36             |[What is a deployment descriptor?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#36what-is-a-deployment-descriptor) |
+| 37             |[What is the transaction isolation level?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#37what-is-the-transaction-isolation-level) |
+| 38             |[What are Microservices and what are the services that make a microservices and what makes it a good one?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#38what-are-microservices-and-what-are-the-services-that-make-a-microservices-and-what-makes-it-a-good-one) |
+| 39             |[What is the definition of Microservices according to you? What makes something a Microservice?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#39what-is-the-definition-of-microservices-according-to-you-what-makes-something-a-microservice) |
+| 40             |[What are volatile keywords?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#40javams-have-you-developed-all-services-in-spring-boot-or-any-other-framework) |
+| 41             |[Can you explain recent experience on building an API?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#41can-you-explain-recent-experience-on-building-an-api) |
+| 42             |[Explain dynamo DB advantages?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#42please-explain-dynamo-db-advantages) |
+| 43             |[Can you explain the usage of Kotlin?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#43can-you-explain-the-usage-of-kotlin) |
+| 44             |[Have you worked for Lambda in AWS?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#44have-you-worked-for-lambda-in-aws) |
+| 45             |[How would you write a Java class that is testable?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#45how-would-you-write-a-java-class-that-is-testable) |
+| 46             |[Can you explain URL shortening?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#46can-you-explain-url-shortening) |
+| 47             |[Explain caching strategy?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#47explain-caching-strategy) |
+| 48             |[Define SDN networking?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#48please-define-sdn-networking) |
+| 49             |[What is multi thread programming?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#49what-is-multi-thread-programming) |
+| 50             |[What is ReadWriteLocks? What design will you use?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#50what-is-readwritelocks-what-design-will-you-use) |
+
+
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
@@ -649,9 +681,12 @@ Microservice is a service-based application development methodology. In this met
 
 ---
 
-### 40.	Java/MS> have you developed all services in spring boot or any other framework? 
+### 40.	What are volatile keywords? 
 
-Yes, I have developed all CRUD services in Spring boot and inSpring MVC as well.
+Volatile keyword is used to modify the value of a variable by different threads. It is also used to make classes thread safe. It means that multiple threads can use a method and instance of the classes at the same time without any problem. The volatile keyword can be used either with primitive types or objects. The volatile keyword does not cache the value of the variable and always reads the variable from the main memory. The volatile keyword cannot be used with classes or methods. However, it is used with variables. It also guarantees visibility and ordering. It prevents the compiler from the reordering of code.
+
+The contents of the particular device register could change at any time, so you need the volatile keyword to ensure that such accesses are not optimized away by the compiler.
+
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
