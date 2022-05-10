@@ -225,4 +225,65 @@ public static void main(String[] args){//main thread starts here
 ```
 ---
 
+### 11.	Explain thread life cycle in Java
+
+Thread has the following states:
+*	New
+*	Runnable
+*	Running
+*	Non-runnable (Blocked)
+*	Terminated
+
+![Thread Life Cycle](https://user-images.githubusercontent.com/649439/167628356-49e0a73f-d0d9-47ce-a643-5288e068a060.png)
+
+
+*	**New:** In New state, Thread instance has been created but start () method is not yet invoked. Now the thread is not considered alive.
+*	**Runnable:** The Thread is in runnable state after invocation of the start () method, but before the run () method is invoked. But a thread can also return to the runnable state from waiting/sleeping. In this state the thread is considered alive.
+*	**Running:** The thread is in running state after it calls the run () method. Now the thread begins the execution.
+*	**Non-Runnable(Blocked):** The thread is alive but it is not eligible to run. It is not in a runnable state but also, it will return to runnable state after some time. For Example: wait, sleep, block.
+*	**Terminated:** Once the run method is completed then it is terminated. Now the thread is not alive.
+
+---
+
+### 12. Which methods are used during the Serialization and Deserialization process?
+
+ObjectOutputStream and ObjectInputStream classes are higher level java.io. package. We will use them with lower level classes FileOutputStream and FileInputStream.
+
+ObjectOutputStream.writeObject —->Serialize the object and write the serialized object to a file.
+
+ObjectInputStream.readObject —> Reads the file and deserializes the object.
+
+To be serialized, an object must implement the serializable interface. If a superclass implements Serializable, then the subclass will automatically be serializable.
+
+| Serialization        | Deserialization      | 
+| ------------- |-------------|
+|Serialization is the process which is used to convert the objects into byte stream|Deserialization is the opposite process of serialization where we can get the objects back from the byte stream.|
+|An object is serialized by writing it an ObjectOutputStream.|An object is deserialized by reading it from an ObjectInputStream.|
+
+---
+
+### 13. When to use Runnable interface Vs Thread class in Java?
+
+If we need our class to extend some other classes other than the thread then we can go with the runnable interface because in java we can extend only one class. If we are not going to extend any class then we can extend the thread class.
+
+---
+
+### 14. What is the life-cycle of a servlet?
+
+There are 5 stages in the lifecycle of a servlet:
+
+1.	Servlet is loaded
+2.	Servlet is instantiated
+3.	Servlet is initialized
+4.	Service the request
+5.	Servlet is destroyed
+
+![image](https://user-images.githubusercontent.com/649439/167629455-326556a3-d24c-4c28-88de-c16a40b946de.png)
+
+---
+
+### 15. 
+
+---
+
 Wish you all the best.
