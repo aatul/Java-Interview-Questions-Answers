@@ -20,6 +20,8 @@ Looking forward to appear in Java Interview, here are the key Java Interview Que
 | 13             |[When to use Runnable interface Vs Thread class in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#13-when-to-use-runnable-interface-vs-thread-class-in-java) |
 | 14             |[What is the life-cycle of a servlet?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#14-what-is-the-life-cycle-of-a-servlet) |
 | 15             |[Differences between ServletContext vs ServletConfig?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#15-differences-between-servletcontext-vs-servletconfig) |
+| 16             |[Difference between SPRING CORE & SPRING BOOT?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#16difference-between-spring-core--spring-boot) |
+
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
@@ -321,13 +323,49 @@ There are 5 stages in the lifecycle of a servlet:
 
 ### 15. Differences between ServletContext vs ServletConfig?
 
-| Serialization        | Deserialization      | 
+| ServletConfig        | ServletContext      | 
 | ------------- |-------------|
 |Servlet config object represent single servlet|It represent whole web application running on particular JVM and common for all the servlet|
 |Its like local parameter associated with particular servlet|Its like global parameter associated with whole application|
 |It’s a name value pair defined inside the servlet section of web.xml file so it has servlet wide scope|ServletContext has application wide scope so define outside of servlet tag in web.xml file.|
 |getServletConfig() method is used to get the config object|getServletContext() method is  used to get the context object.|
 |for example shopping cart of a user is a specific to particular user so here we can use servlet config|To get the MIME type of a file or application session related information is stored using servlet context object.|
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 16.	Difference between SPRING CORE & SPRING BOOT?
+
+**Spring Framework:**
+*	Spring is one of the most widely used Java EE Frameworks for building applications. 
+*	For the Java platform, the Spring framework provides an elaborate programming and configuration model. 
+*	It aims to simplify the Java EE development and helps developers be more productive at work. 
+*	It can be used at any kind of deployment platform.
+*	One of the major features of the Spring framework is the dependency injection. 
+*	It helps make things simpler by allowing us to develop loosely coupled applications.
+
+**Spring Boot:**
+*	While the Spring framework focuses on providing flexibility to you, Spring Boot aims to shorten the code length and provide you with the easiest way to develop a web application. 
+*	With annotation configuration and default codes, Spring Boot shortens the time involved in developing an application. 
+*	It helps create a stand-alone application with less or almost zero-configuration.
+*	Autoconfiguration is a special feature in Spring Boot. 
+*	It automatically configures a class based on that requirement.
+
+
+| Spring        | Spring Boot      | 
+| ------------- |-------------|
+|Spring Framework is a widely used Java EE framework for building applications.|Spring Boot Framework is widely used to develop REST APIs.|
+|It aims to simplify Java EE development that makes developers more productive.|It aims to shorten the code length and provide the easiest way to develop Web Applications.|
+|The primary feature of the Spring Framework is dependency injection.|The primary feature of Spring Boot is Autoconfiguration. It automatically configures the classes based on the requirement.|
+|It helps to make things simpler by allowing us to develop loosely coupled applications.|It helps to create a stand-alone application with less configuration.|
+|The developer writes a lot of code (boilerplate code) to do the minimal task.|It reduces boilerplate code.|
+|To test the Spring project, we need to set up the sever explicitly.|To test the Spring project, we need to set up the sever explicitly.|
+|It does not provide support for an in-memory database.|It offers several plugins for working with an embedded and in-memory database such as H2.|
+|Developers manually define dependencies for the Spring project in pom.xml.|Spring Boot comes with the concept of starter in pom.xml file that internally takes care of downloading the dependencies JARs based on Spring Boot Requirement.|
+|Spring is an open-source lightweight framework widely used to develop enterprise applications.|Spring Boot is built on top of the conven
+tional spring framework, widely used to develop REST APIs.
+|
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
