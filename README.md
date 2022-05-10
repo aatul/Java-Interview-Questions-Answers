@@ -21,7 +21,10 @@ Looking forward to appear in Java Interview, here are the key Java Interview Que
 | 14             |[What is the life-cycle of a servlet?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#14-what-is-the-life-cycle-of-a-servlet) |
 | 15             |[Differences between ServletContext vs ServletConfig?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#15-differences-between-servletcontext-vs-servletconfig) |
 | 16             |[Difference between SPRING CORE & SPRING BOOT?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#16difference-between-spring-core--spring-boot) |
-
+| 17             |[REST API? What’s the benefit of using JSON over XML?](https://github.com/aatul/Java-Interview-Questions-Answers/edit/master/README.md#17rest-api-whats-the-benefit-of-using-json-over-xml) |
+| 18             |[What are the different methods of session management in servlets?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#18what-are-the-different-methods-of-session-management-in-servlets) |
+| 19             |[Let's talk about SOLID design principles. Could you quickly explain what are the main design principles in the current project?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#lets-talk-about-solid-design-principles-could-you-quickly-explain-what-are-the-main-design-principles-in-the-current-project) |
+| 20             |[Difference between wait and notify() work in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/edit/master/README.md#20difference-between-wait-and-notify-work-in-java) |
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
@@ -364,11 +367,104 @@ There are 5 stages in the lifecycle of a servlet:
 |It does not provide support for an in-memory database.|It offers several plugins for working with an embedded and in-memory database such as H2.|
 |Developers manually define dependencies for the Spring project in pom.xml.|Spring Boot comes with the concept of starter in pom.xml file that internally takes care of downloading the dependencies JARs based on Spring Boot Requirement.|
 |Spring is an open-source lightweight framework widely used to develop enterprise applications.|Spring Boot is built on top of the conven
-tional spring framework, widely used to develop REST APIs.
-|
+tional spring framework, widely used to develop REST APIs.|
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
 ---
 
-Wish you all the best.
+### 17.	REST API? What’s the benefit of using JSON over XML?
+
+**REST API :- ** 
+
+*	REST stands for representational state transfer.
+*	A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services.  
+*	An API is a set of definitions and protocols for building and integrating application software.  
+*	It’s sometimes referred to as a contract between an information provider and an information user—establishing the content required from the consumer (the call) and the content required by the producer (the response). 
+*	When a client request is made via a RESTful API, it transfers a representation of the state of the resource to the requester or endpoint. 
+*	This information, or representation, is delivered in one of several formats via HTTP: JSON (Javascript Object Notation), HTML, XLT, Python, PHP, or plain text. 
+
+**Benefits of using JSON over XML :- **
+*	Less Verbose: JSON has a more compact style than XML, and it is often more readable. The lightweight approach of JSON can make significant improvements in RESTful APIs working with complex systems.
+*	Faster: The XML software parsing process can take a long time. One reason for this problem is the DOM manipulation libraries that require more memory to handle large XML files. JSON uses less data overall, so you reduce the cost and increase the parsing speed.
+*	Readable: The JSON structure is straightforward and readable. You have an easier time mapping to domain objects, no matter what programming language you're working with.
+*	Structure Matches the Data: JSON uses a map data structure rather than XML's tree. In some situations, key/value pairs can limit what you can do, but you get a predictable and easy-to-understand data model.
+*	Objects Align in Code: JSON objects and code objects match, which is beneficial when quickly creating domain objects in dynamic languages.
+*	JSON Limitations: The limitations in JSON actually end up being one of its biggest benefits. A common line of thought among developers is that XML comes out on top because it supports modeling more objects. However, JSON's limitations simplify the code, add predictability and increase readability.
+
+In comparison to an XML model, a JSON data structure is intuitive, making it easy to read and map directly to domain objects in whatever programming language is being used. 
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 18.	What are the different methods of session management in servlets?
+
+Session is a conversational state between client and server and it can consist of multiple requests and responses between client and server. Since HTTP and Web Server both are stateless, the only way to maintain a session is when some unique information about the session (session id) is passed between server and client in every request and response.
+
+Some of the common ways of session management in servlets are:
+1.	User Authentication
+2.	HTML Hidden Field
+3.	Cookies
+4.	URL Rewriting
+5.	Session Management API
+
+![image](https://user-images.githubusercontent.com/649439/167678579-d7277e08-3154-479c-bfdf-f36a63af646e.png)
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### Let's talk about SOLID design principles. Could you quickly explain what are the main design principles in the current project?
+
+**SOLID principles** came from an essay written in 2000 by Robert Martin, known as Uncle Bob, where he discussed that a successful application will change and, without good design, can become rigid, fragile, immobile and viscous.
+
+**Rigid —** Things are very fixed. You can’t move or change things without affecting other things, but it’s clear what will break if you make a change.
+
+**Fragile —** Easy to move and change things but not obvious what else might break as a result.
+
+**Immobile —** Code works fine but you can’t re-use code without duplicating or replicating it.
+
+**Viscous —** Everything falls apart when you make a change, you quickly push it back together and get your change working. The same thing happens when somebody else comes along to make a change.
+
+**The SOLID Principles -**
+
+**S — Single Responsibility:**
+- A class should have a single responsibility.
+- ‘There should never be more than one reason for a class to change’.
+
+**O — Open-Closed**
+- Classes should be open for extension, but closed for modification.
+- ‘A module should be open for extension but closed for modification’.
+
+**L — Liskov Substitution**
+- If S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that program.
+- ‘Subclasses should be substitutable for their base classes’.
+
+**I — Interface Segregation**
+- Clients should not be forced to depend on methods that they do not use.
+- ‘Many client specific interfaces are better than one general purpose interface’.
+
+**D — Dependency Inversion**
+- High-level modules should not depend on low-level modules. Both should depend on the abstraction.
+- Abstractions should not depend on details. Details should depend on abstractions.
+- ‘Depend upon abstractions. Do not depend upon concretions.’
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 20.	Difference between wait() and notify() work in Java?
+
+| wait()        | notify()      | 
+| ------------- |-------------|
+|When wait() is called on a thread holding the monitor lock, it surrenders the monitor lock and enters the waiting state.|When the notify() is called on a thread holding the monitor lock, it symbolizes that the thread is soon going to surrender the lock. Syntax: ```public final void notify()``` |
+|There can be multiple threads in the waiting state at a time.|One of the waiting threads is randomly selected and notified about the same. The notified thread then exits the waiting state and enters the blocked state where it waits till the previous thread has given up the lock and this thread has acquired it. Once it acquires the lock, it enters the runnable state where it waits for CPU time and then it starts running.|
+|Object.wait() to suspend a thread|Object.notify() to wake a thread up|
+|Causes the current thread to release the lock and wait until either another thread invokes the notify() method or the notifyAll() method for this object, or a specified amount of time has elapsed.|Wakes up a single thread that is waiting on this object's monitor. If any threads are waiting on this object, one of them is chosen to be awakened. The choice is arbitrary and occurs at the discretion of the implementation.|
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+Wish you all the luck.
