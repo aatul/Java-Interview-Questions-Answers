@@ -15,6 +15,14 @@ Looking forward to appear in Java Interview, here are the key Java Interview Que
 | 8             |[Explain about Set and their types in a collection?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#8-explain-about-set-and-their-types-in-a-collection) |
 | 9             |[What is the final keyword in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#9-what-is-the-final-keyword-in-java) |
 | 10             |[What is a Thread?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#10-what-is-a-thread) |
+| 11             |[Explain thread life cycle in Java](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#11explain-thread-life-cycle-in-java) |
+| 12             |[Which methods are used during the Serialization and Deserialization process?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#12-which-methods-are-used-during-the-serialization-and-deserialization-process) |
+| 13             |[When to use Runnable interface Vs Thread class in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#13-when-to-use-runnable-interface-vs-thread-class-in-java) |
+| 14             |[What is the life-cycle of a servlet?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#14-what-is-the-life-cycle-of-a-servlet) |
+| 15             |[Differences between ServletContext vs ServletConfig?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#15-differences-between-servletcontext-vs-servletconfig) |
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
 ---
 
 ### 1. New Java8 Features
