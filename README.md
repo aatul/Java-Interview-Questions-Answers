@@ -38,6 +38,9 @@ Java 8 provides following features for Java Programming:
 *	IO Enhancements,
 *	Concurrency Enhancements,
 *	JDBC Enhancements etc.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
 ---
 
 ### 2. Difference between GET & POST METHODS?
@@ -50,6 +53,8 @@ Java 8 provides following features for Java Programming:
 |Idempotent|Non-Idempotent|
 |It is more efficient and use than Post|It is less efficient and used|
 
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
 ---
 
 ### 3. Difference between forward() method & SendRedirect() method?
@@ -59,6 +64,8 @@ Java 8 provides following features for Java Programming:
 |forward() sends the same request to another resource.|sendRedirect() method sends new request always because it uses the URL bar of the browser.|
 |forward() method works at server side.|sendRedirect() method works at client side.|
 |forward() method works within the server only.|sendRedirect() method works within and outside the server.|
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
 ---
 
@@ -72,6 +79,8 @@ Java 8 provides following features for Java Programming:
 |Allows one null key and multiple null values|Doesn’t allow anything that is null|
 |Performance is high than HashTable|Performance is slow|
 
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
 ---
 
 ### 5. Difference between HashSet and TreeSet?
@@ -81,6 +90,8 @@ Java 8 provides following features for Java Programming:
 |Inserted elements are in random order|Maintains the elements in the sorted order|
 |Can store null objects|Couldn’t store null objects|
 |Performance is fast|Performance is slow|
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
 ---
 
@@ -94,6 +105,9 @@ Collections are used to perform the following operations:
 *	Manipulation
 *	Insertion
 *	Deletion 
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
 ---
 
 ### 7. What is meant by Ordered and Sorted in collections?
@@ -105,6 +119,8 @@ It means the values that are stored in a collection is based on the values that 
 **Sorted:**
 
 Sorting mechanism can be applied internally or externally so that the group of objects sorted in a particular collection is based on properties of the objects.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
 ---
 
@@ -189,6 +205,7 @@ Output:
 
 TreeSet sorts the elements in an ascending order. And duplicates are not allowed.
 
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
 ---
 
@@ -208,8 +225,9 @@ A final keyword in a method that couldn’t be overridden. If a method is marked
 
 **Final class:**
 
-If a class is declared as final, then the class couldn’t be subclassed. No class can extend the final class.
+If a class is declared as final, then the class couldn’t be subclassed. No class can extend/inherit the final class.
 
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
 ---
 
@@ -223,6 +241,9 @@ public static void main(String[] args){//main thread starts here
 
 }
 ```
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
 ---
 
 ### 11.	Explain thread life cycle in Java
@@ -243,6 +264,8 @@ Thread has the following states:
 *	**Non-Runnable(Blocked):** The thread is alive but it is not eligible to run. It is not in a runnable state but also, it will return to runnable state after some time. For Example: wait, sleep, block.
 *	**Terminated:** Once the run method is completed then it is terminated. Now the thread is not alive.
 
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
 ---
 
 ### 12. Which methods are used during the Serialization and Deserialization process?
@@ -260,11 +283,15 @@ To be serialized, an object must implement the serializable interface. If a supe
 |Serialization is the process which is used to convert the objects into byte stream|Deserialization is the opposite process of serialization where we can get the objects back from the byte stream.|
 |An object is serialized by writing it an ObjectOutputStream.|An object is deserialized by reading it from an ObjectInputStream.|
 
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
 ---
 
 ### 13. When to use Runnable interface Vs Thread class in Java?
 
 If we need our class to extend some other classes other than the thread then we can go with the runnable interface because in java we can extend only one class. If we are not going to extend any class then we can extend the thread class.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
 ---
 
@@ -280,9 +307,21 @@ There are 5 stages in the lifecycle of a servlet:
 
 ![image](https://user-images.githubusercontent.com/649439/167629455-326556a3-d24c-4c28-88de-c16a40b946de.png)
 
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
 ---
 
-### 15. 
+### 15. Differences between ServletContext vs ServletConfig?
+
+| Serialization        | Deserialization      | 
+| ------------- |-------------|
+|Servlet config object represent single servlet|It represent whole web application running on particular JVM and common for all the servlet|
+|Its like local parameter associated with particular servlet|Its like global parameter associated with whole application|
+|It’s a name value pair defined inside the servlet section of web.xml file so it has servlet wide scope|ServletContext has application wide scope so define outside of servlet tag in web.xml file.|
+|getServletConfig() method is used to get the config object|getServletContext() method is  used to get the context object.|
+|for example shopping cart of a user is a specific to particular user so here we can use servlet config|To get the MIME type of a file or application session related information is stored using servlet context object.|
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
 ---
 
