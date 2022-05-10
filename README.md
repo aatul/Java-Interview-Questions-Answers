@@ -24,7 +24,7 @@ Looking forward to appear in Java Interview, here are the key Java Interview Que
 | 17             |[REST API? What’s the benefit of using JSON over XML?](https://github.com/aatul/Java-Interview-Questions-Answers/edit/master/README.md#17rest-api-whats-the-benefit-of-using-json-over-xml) |
 | 18             |[What are the different methods of session management in servlets?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#18what-are-the-different-methods-of-session-management-in-servlets) |
 | 19             |[Let's talk about SOLID design principles. Could you quickly explain what are the main design principles in the current project?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#lets-talk-about-solid-design-principles-could-you-quickly-explain-what-are-the-main-design-principles-in-the-current-project) |
-| 20             |[Difference between wait and notify() work in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/edit/master/README.md#20difference-between-wait-and-notify-work-in-java) |
+| 20             |[Difference between wait and notify() work in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#20difference-between-wait-and-notify-work-in-java) |
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
