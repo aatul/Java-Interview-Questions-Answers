@@ -979,5 +979,12 @@ Concurrent accumulator classes that enable you to very efficiently increase / de
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
 ---
+### 65.	Concurrent accumulators in java?
+
+Concurrent accumulator classes that enable you to very efficiently increase / decrease the value of a counter in a thread safe manner. This is really a case where it’s not a question of taste, or preference – using these new classes in your code is really a no-brainer
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
 
 Wish you all the luck.
