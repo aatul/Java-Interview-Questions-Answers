@@ -987,4 +987,53 @@ Concurrent accumulator classes that enable you to very efficiently increase / de
 
 ---
 
+### 66. Difference between hot storage vs cold storage?
+
+**Hot storage:** represents frequently used and critical files stored at the edge for fast local access.
+
+**Warm storage:** is often illustrated as files stored on a cloud storage gateway or file server/NAS for fast retrieval, most often at a corporate headquarters or remote office/branch office (ROBO).
+
+**Cold storage:** doesn’t require fast access. It mostly represents archived materials and infrequently accessed projects and documents. These are increasingly stored in low-cost object and cloud storage tiers
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 67. What is an abstract class in java?
+
+A class which is declared with the abstract keyword is known as an abstract class in Java. It can have abstract and non-abstract methods (method with the body). Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 68. What is the interface?
+
+An interface in Java is a blueprint of a class. It has static constants and abstract methods. The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method bodies. It is used to achieve abstraction and multiple inheritance in Java. In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body. Java Interface also represents the IS-A relationship.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 69. Use of equals in JAVA?
+
+The equals() method compares two strings, and returns true if the strings are equal, and false if not.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 70. What is EKS?
+
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed service that you can use to run Kubernetes on AWS without needing to install, operate, and maintain your own Kubernetes control plane or nodes.
+
+Amazon Elastic Container Service for Kubernetes (EKS) is a cloud-based container management service that natively integrates with Kubernetes to deploy applications.
+
+The EKS service automatically manages and scales clusters of infrastructure resources on AWS with Kubernetes, an open source tool for container orchestration that can be difficult for an enterprise to administer on its own. 
+With Amazon EKS, an enterprise can use Kubernetes without having to install, operate or manage the container orchestration software.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
 Wish you all the luck.
