@@ -934,4 +934,16 @@ The Primary Key attributes only allow scalar (single) values; and string, number
 
 ---
 
+### 60.	What is the difference between list and hash table?
+
+ArrayList is an ordered Collection of objects, the objects will be in the same order that you use to add them to the ArrayList.
+
+HashTable is a Collection of Key Value Pair. Each object in the HashTable is defined by a Key and Value.
+
+Generally the ArrayList is quicker than the HashTable to insert elements in some cases. But when you have to lookup for an element the HashTable (using the key to search) is faster than the ArrayList.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
 Wish you all the luck.
