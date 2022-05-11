@@ -946,4 +946,38 @@ Generally the ArrayList is quicker than the HashTable to insert elements in some
 
 ---
 
+### 61.	You're trying to store people's info in a hash table. How would you design your key?
+
+Will create a hashtable in which I will insert an integer id as key and Map<People> as value.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 62. What is the synchronized keyword and what are the different ways to use synchronized keywords?
+
+A piece of logic marked with synchronized becomes a synchronized block, allowing only one thread to execute at any given time.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 63.	What is a synchronized block? What is the difference between synchronized block and synchronized method?
+
+A piece of logic marked with synchronized becomes a synchronized block, allowing only one thread to execute at any given time.
+
+Synchronized method provides a lock corresponding to class level or object level, whereas Synchronized block provides a lock on any object depending on the parameter.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 64. Explain concurrent accumulators?  And Concurrency in java?
+  
+Concurrent accumulator classes that enable you to very efficiently increase / decrease the value of a counter in a thread safe manner. This is really a case where it’s not a question of taste, or preference – using these new classes in your code is really a no-brainer.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
 Wish you all the luck.
