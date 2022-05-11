@@ -823,4 +823,115 @@ and no thread has requested a write lock (but not yet obtained it). Thus, multip
 
 ---
 
+### 51.	Please explain JAVA - Data structures?
+
+A data structure is a particular way of organizing data in a computer so that it can be used effectively. When we think of data structures, there are generally four forms:
+* Linear: arrays, lists.
+* Tree: binary, heaps, space partitioning etc.
+* Hash: distributed hash table, hash tree etc.
+* Graphs: decision, directed, acyclic etc.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 52. What are the familiar data structures you used in java?
+
+Data Structures are a specialized means of organizing and storing data in computers in such a way that we can perform operations on the stored data more efficiently. I have used array, hashtable, linked list and stacks. 
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 53.	How does Hashmap work?
+
+HashMap is a part of the Java collection framework. It uses a technique called Hashing. It implements the map interface. It stores the data in the pair of Key and Value. HashMap contains an array of the nodes, and the node is represented as a class. It uses an array and LinkedList data structure internally for storing Key and Value. There are four fields in HashMap.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 54.	Explain concurrent hashmap? And why do we need a concurrent hashmap?
+It allows concurrent access to the map. Part of the map called Segment (internal data structure) is only getting locked while adding or updating the map. So ConcurrentHashMap allows concurrent threads to read the value without locking at all. This data structure was introduced to improve performance.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 55.	What is the difference between docker vs virtual machine?
+
+**Docker** is container based technology and containers are just user space of the operating system.  It is built for running applications. In Docker, the containers running share the host OS kernel.
+
+**A Virtual Machine**, on the other hand, is not based on container technology. They are made up of user space plus kernel space of an operating system. Under VMs, server hardware is virtualized. Each VM has Operating system (OS) & apps. It shares hardware resource from the host.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 56.	When you do the microservices we have multiple microservices and there are Difference pros and cons? 
+
+Microservice architecture is a software development style that breaks the system down into smaller independent components. It is a collection of autonomous services designed around a single business domain.These individual units are capable of handling one part of the functionality of the software. Below are the pros and cons of the microservices architecture:
+
+**Pros:**
+- Easier scaling up
+- Improved tolerance level
+- Ease of understanding codebase
+- Independent deployment
+- Scope of experiment
+
+**Cons:**
+- Increased complexed communication
+- Complex deployment
+- Need more resources
+- Global testing is difficult
+- Not recommended for smaller application
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 57.	What is closed state, open state?
+
+**Closed state:**
+This state implies that the service is up and running(properly). Then if the number of error responses from the needed service passes a threshold limit, the circuit breaker will be tripped (ie: goes to the open stage).
+
+**Open state:**
+In this state the circuit breaker will not make the remote calls. Since the requests failed more than the threshold, we will know that the service is not working properly. Actually, the result need not be a 500 error message to the client. With the circuit breakers, we implement a fallback method which will handle the case if the needed service is down. So in the open state, the circuit breaker will trigger the fallback method. After a considerable time, the circuit breaker will go to half-open state.
+
+**When the circuit is open what can be done?**
+-	You can show error message
+-	You can return cached data
+
+**Half Open State:**
+This is a stage that the circuit breaker takes after spending some time in the closed stage. During this stage, the circuit breaker makes a remote call to the service. If the request fails, the circuit breaker will go to the open stage. If the service gives the proper response, the circuit breaker will go to the closed stage. So with a specified time period, the circuit breaker will check the service and decides which state to go.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 58.	What is Hystrix?
+
+Hystrix is a latency and fault tolerance java library designed to isolate points of access to remote systems, services, and 3rd-party libraries in a distributed environment. It helps to stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 59.	Tell me the difference between hash key and sort key in dynamodb?
+
+Partition Key − This simple primary key consists of a single attribute referred to as the “partition key.” Internally, DynamoDB uses the key value as input for a hash function to determine storage.
+
+Partition Key and Sort Key − This key, known as the “Composite Primary Key”, consists of two attributes.
+
+I.	The partition key
+II.	The sort key.
+
+DynamoDB applies the first attribute to a hash function, and stores items with the same partition key together; with their order determined by the sort key. Items can share partition keys, but not sort keys.
+
+The Primary Key attributes only allow scalar (single) values; and string, number, or binary data types. The non-key attributes do not have these constraints.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
 Wish you all the luck.
