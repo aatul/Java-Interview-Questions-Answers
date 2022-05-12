@@ -55,8 +55,26 @@ Looking forward to appear in Java Interview, here are the key Java Interview Que
 | 48             |[Define SDN networking?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#48please-define-sdn-networking) |
 | 49             |[What is multi thread programming?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#49what-is-multi-thread-programming) |
 | 50             |[What is ReadWriteLocks? What design will you use?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#50what-is-readwritelocks-what-design-will-you-use) |
-
-
+| 51             |[Please explain JAVA - Data structures?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#51please-explain-java---data-structures) |
+| 52             |[What are the familiar data structures you used in java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#52-what-are-the-familiar-data-structures-you-used-in-java) |
+| 53             |[How does Hashmap work?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#53how-does-hashmap-work) |
+| 54             |[Explain concurrent hashmap? And why do we need a concurrent hashmap?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#54explain-concurrent-hashmap-and-why-do-we-need-a-concurrent-hashmap) |
+| 55             |[What is the difference between docker vs virtual machine?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#55what-is-the-difference-between-docker-vs-virtual-machine) |
+| 56             |[When you do the microservices we have multiple microservices and there are Difference pros and cons?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#56when-you-do-the-microservices-we-have-multiple-microservices-and-there-are-difference-pros-and-cons) |
+| 57             |[What is closed state, open state?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#57what-is-closed-state-open-state) |
+| 58             |[What is Hystrix?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#58what-is-hystrix) |
+| 59             |[Tell me the difference between hash key and sort key in dynamodb?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#59tell-me-the-difference-between-hash-key-and-sort-key-in-dynamodb) |
+| 60             |[What is the difference between list and hash table?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#60what-is-the-difference-between-list-and-hash-table) |
+| 61             |[You're trying to store people's info in a hash table. How would you design your key?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#61youre-trying-to-store-peoples-info-in-a-hash-table-how-would-you-design-your-key) |
+| 62             |[What is the synchronized keyword and what are the different ways to use synchronized keywords?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#62-what-is-the-synchronized-keyword-and-what-are-the-different-ways-to-use-synchronized-keywords) |
+| 63             |[What is a synchronized block? What is the difference between synchronized block and synchronized method?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#63what-is-a-synchronized-block-what-is-the-difference-between-synchronized-block-and-synchronized-method) |
+| 64             |[Explain concurrent accumulators? And Concurrency in java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#64-explain-concurrent-accumulators--and-concurrency-in-java) |
+| 65             |[Concurrent accumulators in java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#65concurrent-accumulators-in-java) |
+| 66             |[Difference between hot storage vs cold storage?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#66-difference-between-hot-storage-vs-cold-storage) |
+| 67             |[What is an abstract class in java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#67-what-is-an-abstract-class-in-java) |
+| 68             |[What is the interface?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#68-what-is-the-interface) |
+| 60             |[Use of equals in JAVA?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#69-use-of-equals-in-java) |
+| 70             |[What is EKS?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#70-what-is-eks) |
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
