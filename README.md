@@ -1054,4 +1054,35 @@ With Amazon EKS, an enterprise can use Kubernetes without having to install, ope
 
 ---
 
+### 71.	How does EKS work?
+
+Amazon Elastic Kubernetes Service (Amazon EKS) makes it easy to deploy, manage, and scale containerized applications using Kubernetes on Amazon Web Services.
+
+Amazon EKS runs the Kubernetes management infrastructure for you across multiple Amazon Web Services availability zones to eliminate a single point of failure. Amazon EKS is certified Kubernetes conformant so you can use existing tooling and plugins from partners and the Kubernetes community. Applications running on any standard Kubernetes environment are fully compatible and can be easily migrated to Amazon EKS.
+
+Amazon EKS is generally available for all Amazon Web Services customers.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 72.	What commands do you run EKS?
+https://docs.aws.amazon.com/cli/latest/reference/eks/index.html
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 73.	What is versioning?
+
+Versioning is a means of keeping the multiple forms of an object in the same S3 bucket. Versioning can be used to retrieve, preserve and restore every version of an object in S3 bucket. 
+
+Versioning-enabled buckets allow you to recover the objects from the deletion or overwrite. It serves two purposes:
+*	If you delete an object, instead of deleting the object permanently, it creates a delete marker which becomes a current version of an object.
+*	If you overwrite an object, it creates a new version of the object and also restores the previous version of the object.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
 Wish you all the luck.
