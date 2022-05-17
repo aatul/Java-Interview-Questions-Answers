@@ -75,6 +75,33 @@ Looking forward to appear in Java Interview, here are the key Java Interview Que
 | 68             |[What is the interface?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#68-what-is-the-interface) |
 | 60             |[Use of equals in JAVA?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#69-use-of-equals-in-java) |
 | 70             |[What is EKS?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#70-what-is-eks) |
+| 71             |[How does EKS work?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#71how-does-eks-work) |
+| 72             |[What commands do you run EKS?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#72what-commands-do-you-run-eks) |
+| 73             |[What is versioning?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#73what-is-versioning) |
+| 74             |[What do you mean by the life cycle of a thread?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#74-what-do-you-mean-by-the-life-cycle-of-a-thread) |
+| 75             |[What does "Versioning of objects" mean?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#75-what-does-versioning-of-objects-mean) |
+| 76             |[Difference between rest and soap? Which is more secure: rest or soap?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#76-difference-between-rest-and-soap-which-is-more-secure-rest-or-soap) |
+| 77             |[Difference between compute and Kubernetes engine?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#77-difference-between-compute-and-kubernetes-engine) |
+| 78             |[Difference between @component & @bean?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#78-difference-between-component--bean) |
+| 79             |[Tell me the benefit of using Java8 lambda expressions?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#79-tell-me-the-benefit-of-using-java8-lambda-expressions) |
+| 80             |[What is a predicate in java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#80-what-is-a-predicate-in-java) |
+| 81             |[How to create a singleton class?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#81-how-to-create-a-singleton-class) |
+| 82             |[Do you know the marker interface?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#82-do-you-know-the-marker-interface) |
+| 83             |[When do you use serialization?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#83-when-do-you-use-serialization) |
+| 84             |[What is a materialized view in java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#84-what-is-a-materialized-view-in-java) |
+| 85             |[What is NFR?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#85-what-is-nfr) |
+| 86             |[What is the Resiliency in java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#86-what-is-the-resiliency-in-java) |
+| 87             |[Explain the circuit breaker pattern?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#87-explain-the-circuit-breaker-pattern) |
+| 88             |[In java have you used any design patterns?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#88-in-java-have-you-used-any-design-patterns) |
+| 89             |[What are the different ways to create a thread?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#89-what-are-the-different-ways-to-create-a-thread) |
+| 90             |[What is Spring Annotation? Please give examples too?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#90-what-is-spring-annotation-please-give-examples-too) |
+| 91             |[What is Splunk? How will logs come in Splunk?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#91-what-is-splunk-how-will-logs-come-in-splunk) |
+| 92             |[What is the Resiliency pattern in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#92-what-is-the-resiliency-pattern-in-java) |
+| 93             |[What is the circuit breaker pattern?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#93-what-is-the-circuit-breaker-pattern) |
+| 94             |[What is a hibernate criteria builder?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#94-what-is-a-hibernate-criteria-builder) |
+| 95             |[What is the difference between put and patch?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#95-what-is-the-difference-between-put-and-patch) |
+| 96             |[What are Java Streams?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#96-what-are-java-streams) |
+
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
