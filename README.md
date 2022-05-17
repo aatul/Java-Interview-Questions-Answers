@@ -1087,7 +1087,7 @@ Versioning-enabled buckets allow you to recover the objects from the deletion or
 
 ### 74. What do you mean by the life cycle of a thread?
 
-A thread can be in one of the five states. According to sun, there is only 4 states in thread life cycle in java new, runnable, non-runnable and terminated. There is no running state.
+A thread can be in one of the five states. According to Sun, there is only 4 states in thread life cycle in Java: new, runnable, non-runnable and terminated. There is no running state.
 
 But for better understanding the threads, we are explaining it in the 5 states.
 
@@ -1130,9 +1130,9 @@ You can use versioning to retain multiple versions of an object, which protects 
 
 ### 77. Difference between compute and Kubernetes engine?
   
-*Kubernetes* is a production-grade open-source container orchestration service for automating deployment, scaling, and managing containerized workloads and services.
+**Kubernetes** is a production-grade open-source container orchestration service for automating deployment, scaling, and managing containerized workloads and services.
 
-*Google App Engine* is a managed service by Google Cloud Platform for building and running applications in the form of containers.
+**Google App Engine** is a managed service by Google Cloud Platform for building and running applications in the form of containers.
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
@@ -1172,6 +1172,378 @@ Predicates in Java are implemented with interfaces. Predicate<T> is a generic fu
 A Functional Interface is an interface that allows only one Abstract method within the Interface scope. There are some predefined functional interfaces in Java-like Predicate, consumer, supplier, etc. The return type of a Lambda function (introduced in JDK 1.8) is also a functional interface.
 
 The Functional Interface PREDICATE is defined in the java.util.Function package. It improves the manageability of code, helps in unit-testing them separately, and contains some methods
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 81. How to create a singleton class?
+
+Singleton Pattern says that just “define a class that has only one instance and provides a global point of access to it". 
+
+There are two forms of singleton design pattern - 
+-	Early Instantiation: the creation of instances at load time.
+-	Lazy Instantiation: the creation of instances when required.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 82. Do you know the marker interface?
+
+An interface that does not contain methods, fields, and constants is known as marker interface. In other words, an empty interface is known as marker interface or tag interface. It delivers the run-time type information about an object. It is the reason that the JVM and compiler have additional information about an object. In short, it indicates a signal or command to the JVM.
+
+java.lang.Cloneable and java.io.Serializable are examples of marker interfaces. 
+
+The declaration of marker interface is the same as interface in Java but the interface must be empty. For example:
+
+```java
+public interface Serializable   
+{  
+  
+}
+```
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 83. When do you use serialization?
+
+Serialization in Java is a mechanism of writing the state of an object into a byte-stream. It is mainly used in Hibernate, RMI, JPA, EJB, and JMS technologies.
+
+The reverse operation of serialization is called deserialization where a byte-stream is converted into an object. The serialization and deserialization process is platform-independent, which means you can serialize an object in a platform and deserialize it in a different platform.
+
+For serializing the object, we call the writeObject() method ObjectOutputStream, and for deserialization we call the readObject() method of the ObjectInputStream class.
+
+We must have to implement the Serializable interface for serializing the object.
+
+It is mainly used to travel an object's state on the network (which is known as marshaling).
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 84. What is a materialized view in java?
+
+Materialized views are the views that are similar to the normal views except for one property that they are refreshed faster. These views are updated automatically when any update happens in the master table. 
+
+-	It is a logical and virtual copy of data.
+-	It is the result of a ‘select query’, given that the query is stored in the table or disk.
+-	The query expression and the resultant tuple are stored on the disk.
+-	The query expression isn’t executed every time the user tries to fetch data.
+-	This means, the user doesn’t get the most recently updated values of a table in the database.
+-	It has a storage and update cost associated with it.
+-	They are designed with a generic architecture, hence there is no SQL standard to define it.
+-	Its functionality is provided by certain databases as an extension.
+-	It is used when data has to be accessed frequently but the data in the table isn’t updated frequently.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 85. What is NFR?
+
+Nonfunctional Requirements (NFRs) define system attributes such as security, reliability, performance, maintainability, scalability, and usability. They serve as    constraints or restrictions on the design of the system across the different backlogs
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 86. What is the Resiliency in java?
+
+An application's resiliency is its ability to recover from failures. Microservices-based applications often have several dependencies -- including databases, back-end components, and APIs -- that can potentially cause service call failures, categorized as; 
+
+-	Transient faults
+-	Permanent faults
+
+There are three proven microservices resilience patterns that boost fault tolerance and enable applications to handle failures gracefully.
+
+**Retry:**
+
+Microservices often have many dependencies, including databases, components, back-end services and APIs. Any of these dependencies can intermittently fail, and consequently create numerous service call failures. The retry pattern provides a solution to these transient errors.
+
+**Circuit Breaker:**
+
+While the retry pattern works for transient failures, teams still need a reliable microservices resiliency pattern that handles larger, long-term, permanent faults. If a retry mechanism accidentally invokes a severely damaged service several times until it gets the desired result, it could result in cascading service failures that become increasingly difficult to identify and fix.
+
+**Correlation ID:**
+
+In a typical microservices-based application, several services span different systems, possibly separated by large geographical distances. This means each service must log useful and meaningful data that specifies what it has been doing and details any failures. This requires a third microservices resiliency pattern geared towards service tracking.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 87. Explain the circuit breaker pattern?
+
+The basic idea behind the circuit breaker is very simple. You wrap a protected function call in a circuit breaker object, which monitors it for failures. When we apply this pattern, we prevent possible application problems. This pattern follows the same concept as the safety electrical component named circuit breaker.
+
+Once the failures reach a certain threshold, the circuit breaker trips, and all further calls to the circuit breaker return with an error or with some alternative service or default message, without the protected call being made at all. This will assure that the system is responsive and threads are not waiting for an unresponsive call, protecting the system to avoid catastrophic failures.
+
+-	In case service B goes down, service A should still try to recover from this and try to do one of the followings actions:
+-	Custom fallback: Try to get the same data from some other source. If not possible, use its own cache value or your custom client error response.
+-	Fail fast: If service A knows that service B is down, there is no point waiting for the timeout and consuming its own resources.
+-	Heal automatic: Periodically check if service B is working again.
+-	Other APIs should work: All other APIs should continue to work.
+
+**How does it work?**
+![image](https://user-images.githubusercontent.com/649439/168875117-6d714484-edec-4f4c-95c4-3fe7d165b669.png)
+
+**Closed:** When everything is normal, the Circuit Breaker remains CLOSED and all calls to service B occur normally. If the number of failures exceeds a predetermined limit, the status changes to OPEN.
+
+**Open:** In this state, the Circuit Breaker will not execute the service B call and return a treated error.
+
+**Half-Open:** After a timeout period, the circuit switches to a half-open state to test if the underlying problem still exists. If a single call fails in this HALF-OPEN state, the breaker is once again tripped. If it succeeds, it resets back to the normal, CLOSED state.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 88. In java have you used any design patterns?
+
+**Design Patterns in Java -***
+A design pattern is a well-proven solution for solving a specific problem/task. 
+
+**Advantages of design pattern:**
+-	They are reusable in multiple projects.
+-	They provide the solutions that help to define the system architecture.
+-	They capture the software engineering experiences.
+-	They provide transparency to the design of an application.
+-	They are well-proved and testified solutions since they have been built upon the knowledge and experience of expert software developers.
+-	Design patterns don’t guarantee an absolute solution to a problem. They provide clarity to the system architecture and the possibility of building a better system.
+
+**Categorization of design patterns:**
+Basically, design patterns are categorized into two parts:
+1.	Core Java (or JSE) Design Patterns.
+2.	JEE Design Patterns.
+
+**Core Java Design Patterns**
+In core java, there are mainly three types of design patterns, which are further divided into their sub-parts:
+
+**1.Creational Design Pattern**
+-	Factory Pattern
+-	Abstract Factory Pattern
+-	Singleton Pattern
+-	Prototype Pattern
+-	Builder Pattern.
+
+**2. Structural Design Pattern**
+-	Adapter Pattern
+-	Bridge Pattern
+-	Composite Pattern
+-	Decorator Pattern
+-	Facade Pattern
+-	Flyweight Pattern
+-	Proxy Pattern
+
+**3. Behavioral Design Pattern**
+-	Chain Of Responsibility Pattern
+-	Command Pattern
+-	Interpreter Pattern
+-	Iterator Pattern
+-	Mediator Pattern
+-	Memento Pattern
+-	Observer Pattern
+-	State Pattern
+-	Strategy Pattern
+-	Template Pattern
+-	Visitor Pattern
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 89. What are the different ways to create a thread?
+
+There are two ways to create a thread:
+1.	By extending the Thread class
+2.	By implementing a Runnable interface.
+
+**Thread class:**
+Thread class provides constructors and methods to create and perform operations on a thread. Thread class extends Object class and implements Runnable interface.
+ 
+**Commonly used Constructors of Thread class:**
+-	Thread()
+-	Thread(String name)
+-	Thread(Runnable r)
+-	Thread(Runnable r, String name)
+
+**Starting a thread:**
+start() method of Thread class is used to start a newly created thread. It performs the following tasks:
+-	A new thread starts (with a new call stack)
+-	The thread moves from the New state to the Runnable state.
+-	When the thread gets a chance to execute, its target run() method will run.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 90. What is Spring Annotation? Please give examples too.
+
+Spring Boot Annotations are a form of metadata that provides data about a program. 
+In other words, annotations are used to provide supplemental information about a program. It is not a part of the application that we develop. It does not have a direct effect on the operation of the code they annotate. It does not change the action of the compiled program.
+
+We can leverage the capabilities of the Spring DI engine using the annotations in the org.springframework.beans.factory.annotation and org.springframework.context.annotation packages. 
+
+  
+**DI-Related Annotations -**
+
+**@Autowired:** We can use the @Autowired to mark a dependency which Spring is going to resolve and inject. We can use this annotation with a constructor, setter, or field injection. @Autowired has a boolean argument called required with a default value of true. It tunes Spring's behavior when it doesn't find a suitable bean to wire. When true, an exception is thrown, otherwise, nothing is wired. 
+
+**@Bean:** @Bean marks a factory method which instantiates a Spring bean. 
+
+**@Qualifier:** We use @Qualifier along with @Autowired to provide the bean id or bean name we want to use in ambiguous situations. 
+
+**@Required:** @Required on setter methods to mark dependencies that we want to populate through XML. 
+
+**@Value:** We can use @Value for injecting property values into beans. It's compatible with constructor, setter, and field injection. 
+
+**@DependsOn:** We can use this annotation to make Spring initialize other beans before the annotated one. Usually, this behavior is automatic, based on the explicit dependencies between beans. 
+
+**@Lazy:** We use @Lazy when we want to initialize our bean lazily. By default, Spring creates all singleton beans eagerly at the startup/bootstrapping of the application context. 
+
+**@Lookup:** A method annotated with @Lookup tells Spring to return an instance of the method’s return type when we invoke it. 
+
+**@Primary:** Sometimes we need to define multiple beans of the same type. In these cases, the injection will be unsuccessful because Spring has no clue which bean we need. 
+
+**@Scope:** We use @Scope to define the scope of a @Component class or a @Bean definition. It can be either singleton, prototype, request, session, globalSession or some custom scope. 
+
+
+  
+**Context Configuration Annotations -**
+
+**@Profile:** If we want Spring to use a @Component class or a @Bean method only when a specific profile is active, we can mark it with @Profile.  
+
+**@Import:** We can use specific @Configuration classes without component scanning with this annotation. 
+
+**@ImportResource:** We can import XML configurations with this annotation. We can specify the XML file locations with the locations argument, or with its alias, the value argument. 
+
+**@PropertySource:** With this annotation, we can define property files for application settings. 
+
+**@PropertySources:** We can use this annotation to specify multiple @PropertySource configurations. 
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 91. What is Splunk? How will logs come in Splunk?
+
+Splunk is an advanced, scalable, and effective technology that indexes and searches log files stored in a system. It analyzes the machine-generated data to provide operational intelligence. The main advantage of using Splunk is that it does not need any database to store its data, as it extensively makes use of its indexes to store the data.
+
+Splunk is a software that processes and brings out insight from machine data and other forms of big data. This machine data is generated by a CPU running a webserver, IoT devices, logs from mobile apps, etc. It is not necessary to provide this data to the end-users and does not have any business meaning. However, they are extremely important to understand, monitor, and optimize the performance of the machines.
+
+#### Splunk Features - 
+
+**Data Ingestion**
+Splunk can ingest a variety of data formats like JSON, XML, and unstructured machine data like web and application logs. The unstructured data can be modeled into a data structure as needed by the user.
+
+**Data Indexing**
+The ingested data is indexed by Splunk for faster searching and querying on different conditions.
+
+**Data Searching**
+Searching in Splunk involves using the indexed data for the purpose of creating metrics, predicting future trends, and identifying patterns in the data.
+
+**Using Alerts**
+Splunk alerts can be used to trigger emails or RSS feeds when some specific criteria are found in the data being analyzed.
+
+**Dashboards**
+Splunk Dashboards can show the search results in the form of charts, reports, pivots, etc.
+
+**Data Model**
+The indexed data can be modeled into one or more data sets that are based on specialized domain knowledge. 
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 92. What is the Resiliency pattern in java?
+
+**Resilient Microservice Design – Bulkhead Pattern:**
+The ability of the system to recover from the failure and remain functional makes the system more resilient. It also avoids any cascading failures. 
+
+**Need For Resiliency:**
+MicroServices are distributed in nature. It has more components and moving parts. In a distributed architecture, dealing with any unexpected failure is one of the biggest challenges to solve. It could be a hardware failure, network failure, etc. The ability of the system to recover from the failure and remain functional makes the system more resilient. It also avoids any cascading failures.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 93. What is the circuit breaker pattern?
+
+When one service synchronously invokes another there is always the possibility that the other service is unavailable or is exhibiting such high latency it is essentially unusable. Precious resources such as threads might be consumed by the caller while waiting for the other service to respond. 
+
+**Problem**
+How to prevent a network or service failure from cascading to other services? 
+
+**Solution**
+A service client should invoke a remote service via a proxy that functions in a similar fashion to an electrical circuit breaker. When the number of consecutive failures crosses a threshold, the circuit breaker trips, and for the duration of a timeout period, all attempts to invoke the remote service will fail immediately. After the timeout expires the circuit breaker allows a limited number of test requests to pass through. If those requests succeed the circuit breaker resumes normal operation. Otherwise, if there is a failure the timeout period begins again.
+
+**The circuit breaker has three distinct stages:**
+1.	Closed
+2.	Open
+3.	Half-Open 
+
+**Closed –** When everything is normal, the circuit breaker remains in the closed state and all calls pass through to the services. When the number of failures exceeds a predetermined threshold the breaker trips, and it goes into the Open state.
+
+**Open –** The circuit breaker returns an error for calls without executing the function.
+
+**Half-Open –** After a timeout period, the circuit switches to a half-open state to test if the underlying problem still exists. If a single call fails in this half-open state, the breaker is once again tripped. If it succeeds, the circuit breaker resets back to the normal, closed state. 
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 94. What is a hibernate criteria builder?
+
+Hibernate provides alternate ways of manipulating objects and in turn data available in RDBMS tables. One of the methods is Criteria API, which allows you to build up a criteria query object programmatically where you can apply filtration rules and logical conditions.
+
+The Hibernate Session interface provides createCriteria() method, which can be used to create a Criteria object that returns instances of the persistence object's class when your application executes a criteria query.
+
+**Restrictions with Criteria**
+You can use the add() method available for the Criteria object to add restrictions for a criteria query.
+
+**Pagination Using Criteria**
+There are two methods of the Criteria interface for pagination. 
+
+**1. public Criteria setFirstResult(int firstResult)**
+This method takes an integer that represents the first row in your result set, starting with row 0. 
+
+**2. public Criteria setMaxResults(int maxResults)**
+This method tells Hibernate to retrieve a fixed number maxResults of objects.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 95. What is the difference between put and patch?
+  
+When a client needs to replace an existing Resource entirely, they can use PUT. When they're doing a partial update, they can use HTTP PATCH.
+
+For instance, when updating a single field of the Resource, sending the complete Resource representation might be cumbersome and utilizes a lot of unnecessary bandwidth. In such cases, the semantics of PATCH makes a lot more sense. 
+
+Another important aspect to consider here is idempotence; PUT is idempotent; PATCH can be, but isn't required to. And, so – depending on the semantics of the operation we're implementing, we can also choose one or the other based on this characteristic.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 96. What are Java Streams?
+
+Java provides a new additional package in Java 8 called java.util.stream. This package consists of classes, interfaces and enum to allow functional-style operations on the elements. You can use stream by importing the java.util.stream package. 
+
+Using stream, you can process data in a declarative way similar to SQL statements. You can use streams to filter, collect, print, and convert from one data structure to another etc. 
+
+**Generating Streams**
+With Java 8, the Collection interface has two methods to generate a Stream.
+1.	stream() − Returns a sequential stream considering collection as its source.
+2.	parallelStream() − Returns a parallel Stream considering collection as its source.
+
+**Stream provides the following features:**
+-	Stream does not store elements. It simply conveys elements from a source such as a data structure, an array, or an I/O channel, through a pipeline of computational operations.
+-	Streams are functional in nature. Operations performed on a stream do not modify its source. For example, filtering a Stream obtained from a collection produces a new Stream without the filtered elements, rather than removing elements from the source collection.
+-	Stream is lazy and evaluates code only when required.
+-	The elements of a stream are only visited once during the life of a stream. Like an Iterator, a new stream must be generated to revisit the same elements of the source. 
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
 
