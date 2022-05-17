@@ -1379,7 +1379,7 @@ start() method of Thread class is used to start a newly created thread. It perfo
 
 ---
 
-### 90. What is Spring Annotation? Please give examples too.
+### 90. What is Spring Annotation? Please give examples too?
 
 Spring Boot Annotations are a form of metadata that provides data about a program. 
 In other words, annotations are used to provide supplemental information about a program. It is not a part of the application that we develop. It does not have a direct effect on the operation of the code they annotate. It does not change the action of the compiled program.
@@ -1457,7 +1457,7 @@ The indexed data can be modeled into one or more data sets that are based on spe
 
 ---
 
-### 92. What is the Resiliency pattern in java?
+### 92. What is the Resiliency pattern in Java?
 
 **Resilient Microservice Design – Bulkhead Pattern:**
 The ability of the system to recover from the failure and remain functional makes the system more resilient. It also avoids any cascading failures. 
