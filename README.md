@@ -1085,4 +1085,96 @@ Versioning-enabled buckets allow you to recover the objects from the deletion or
 
 ---
 
+### 74. What do you mean by the life cycle of a thread?
+
+A thread can be in one of the five states. According to sun, there is only 4 states in thread life cycle in java new, runnable, non-runnable and terminated. There is no running state.
+
+But for better understanding the threads, we are explaining it in the 5 states.
+
+The life cycle of the thread in java is controlled by JVM. The java thread states are as follows:
+- New
+- Runnable
+- Running
+- Non-Runnable (Blocked)
+- Terminated
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 75. What does "Versioning of objects" mean?
+
+Versioning is the creation and management of multiple releases of a product, all of which have the same general function but are improved, upgraded or customized. The term applies especially to operating systems (OSs), software and Web services.
+
+You can use versioning to retain multiple versions of an object, which protects against accidental deletion of objects, and enables you to retrieve and restore earlier versions of an object.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 76. Difference between rest and soap? Which is more secure: rest or soap?
+
+| SOAP        | REST      | 
+| ------------- |-------------|
+|SOAP is a protocol.|REST is an architectural style.|
+|SOAP stands for Simple Object Access Protocol.|REST stands for REpresentational State Transfer.|
+|SOAP can't use REST because its a protocol.|REST can use SOAP web services because it is a concept and can use any protocol like HTTP, SOAP.|
+|SOAP uses Services Interfaces to expose the business logic.|REST uses URI to expose business logic.|
+|JAX-WS is the Java API for SOAP web services.|JAX-RS is the Java API for RESTful web services.|
+|SOAP defines standards to be strictly followed.|Rest does not defines too much standards like SOAP.|
+|SOAP is more secure than REST as it uses WS-Security for transmission along with Secure Socket Layer.|REST is less secure than SOAP.|
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 77. Difference between compute and Kubernetes engine?
+  
+*Kubernetes* is a production-grade open-source container orchestration service for automating deployment, scaling, and managing containerized workloads and services.
+
+*Google App Engine* is a managed service by Google Cloud Platform for building and running applications in the form of containers.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 78. Difference between @component & @bean?
+  
+| Sr. No.       | Key         | @bean        | @component  |
+| ------------- |-------------|------------- |-------------|
+|1|Auto detection|It is used to explicitly declare a single bean, rather than letting Spring do it automatically.|If any class is annotated with @Component it will be automatically detect by using classpath scan.|
+|2|Spring Container|Bean can be created even class is outside the spring container|We can’t create bean if class is outside spring container|
+|3|Class/Method Level Annotation|It is a method level annotation|It is a class level annotation|
+|4|@Configuration|It works only when class is also annotated with @Configuration|It works without @Configuration annotation|
+|5|Use Case|We should use @bean, if you want specific implementation based on dynamic condition.|We can’t write specific implementation based on dynamic condition|
+ 
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 79. Tell me the benefit of using Java8 lambda expressions?
+
+Lambda expressions basically express instances of functional interfaces (An interface with a single abstract method is called a functional interface. An example is a java.lang.Runnable). Lambda expressions implement the only abstract function and therefore implement functional interfaces. 
+
+Lambda expressions are added in Java 8 and provide the below functionalities : 
+-	Enable to treat functionality as a method argument, or code as data.
+-	A function that can be created without belonging to any class.
+-	A lambda expression can be passed around as if it was an object and executed on demand.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 80. What is a predicate in java?
+
+Predicates in Java are implemented with interfaces. Predicate<T> is a generic functional interface representing a single argument function that returns a boolean value. It is located in the java.util.function package. It contains a test(T t) method that evaluates the predicate on the given argument. 
+
+A Functional Interface is an interface that allows only one Abstract method within the Interface scope. There are some predefined functional interfaces in Java-like Predicate, consumer, supplier, etc. The return type of a Lambda function (introduced in JDK 1.8) is also a functional interface.
+
+The Functional Interface PREDICATE is defined in the java.util.Function package. It improves the manageability of code, helps in unit-testing them separately, and contains some methods
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
 Wish you all the luck.
