@@ -1,6 +1,6 @@
 # Java-Interview-Questions-Answers
 
-Looking forward to appear in Java Interview, here are the key Java Interview Questions with Answers only for you.
+Looking forward to appear in Java Interview, here are the key 100+ Java Interview Questions with Answers only for you including some of the tricky questions with answers.
 
 ### Table of Contents
 | Sr.No.        | Question      | 
@@ -101,6 +101,11 @@ Looking forward to appear in Java Interview, here are the key Java Interview Que
 | 94             |[What is a hibernate criteria builder?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#94-what-is-a-hibernate-criteria-builder) |
 | 95             |[What is the difference between put and patch?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#95-what-is-the-difference-between-put-and-patch) |
 | 96             |[What are Java Streams?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#96-what-are-java-streams) |
+| 97             |[Why variables in interface are public, static, final?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#97-why-variables-in-interface-are-public-static-final) |
+| 98             |[Why variables in interface don’t need to declare in implementing classes?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#98-why-variables-in-interface-dont-need-to-declare-in-implementing-classes) |
+| 99             |[What will happen if you put return statement or System.exit () on try or catch block? Will finally block execute?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#99-what-will-happen-if-you-put-return-statement-or-systemexit--on-try-or-catch-block-will-finally-block-execute) |
+| 100             |[Can you override a private or static method in Java?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#100-can-you-override-a-private-or-static-method-in-java) |
+| 101             |[What does the following Java program print?](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#101-what-does-the-following-java-program-print) |
 
 
 **[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
