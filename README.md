@@ -1576,4 +1576,56 @@ With Java 8, the Collection interface has two methods to generate a Stream.
 
 ---
 
+### 97. Why variables in interface are public, static, final?
+
+**static:** We don’t create instance of Interface, so for accessing this variables we have only interface name, for that purpose: variables in java are static.
+
+**final:** To make them constants. If 2 classes implement the same interface and you give both of them the right to change the value, conflict will occur in the current value of the var, which is why only one time initialization is permitted.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 98. Why variables in interface don’t need to declare in implementing classes?
+
+Variables in java are by default public static final, so if any class implementing this variables we can use this variables by using interface name only. Variables overridng is not in java.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 99. What will happen if you put return statement or System.exit () on try or catch block? Will finally block execute?
+
+Many programmers think that no matter what, but the finally block will always execute. This question challenge that concept by putting a return statement in the try or catch block or calling System.exit() from try or catch block. Answer of this tricky question in Java is that finally block will execute even if you put a return statement in the try block or catch block but finally block won't run if you call System.exit() from try or catch block.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 100. Can you override a private or static method in Java?
+
+You can not override a private or static method in Java , if you create a similar method with same return type and same method arguments in child class then it will hide the superclass method, this is known as method hiding.
+  
+Similarly, you cannot override a private method in sub class because it's not accessible there, what you do is create another private method with the same name in the child class.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
+### 101. What does the following Java program print?
+
+```java
+public class Test {
+  public static void main ( String [] args) {
+    System. out . println( Math. min( Double. MIN_VALUE , 0.0d ));
+  }
+}
+```
+
+This question is tricky because unlike the Integer , where MIN_VALUE is negative, both the MAX_VALUE and MIN_VALUE of the Double class are positive numbers. The Double.MIN_VALUE is 2^(-1074) , a double constant whose magnitude is the least among all double values. So unlike the obvious answer, this program will print 0.0 because Double.MIN_VALUE is greater than 0. I have asked this question to Java developer having experience up to 3 to 5 years and surprisingly almost 70% candidate got it wrong.
+
+**[Back to Top](https://github.com/aatul/Java-Interview-Questions-Answers/blob/master/README.md#java-interview-questions-answers)**
+
+---
+
 Wish you all the luck.
