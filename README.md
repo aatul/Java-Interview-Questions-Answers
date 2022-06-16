@@ -1634,3 +1634,21 @@ This question is tricky because unlike the Integer , where MIN_VALUE is negative
 ---
 
 Wish you all the luck.
+  
+
+### About me:
+
+### Aatul Palandurkar
+- International Trainer and Author
+- 12 Awards till date
+- 14+ years of experience
+- Trained more than 500000 candidates globally
+
+### Follow me on:
+- Blog : http://aatul.me
+- LinkedIn : https://in.linkedin.com/in/atulpalandurkar
+- Facebook : https://facebook.com/aatulpalandurkar
+- Instagram : https://instagram.com/aatulpalandurkar
+- YouTube : https://www.youtube.com/user/AtulPalandurkar?sub_confirmation=1
+- Write to me : atul.palandurkar@gmail.com
+
